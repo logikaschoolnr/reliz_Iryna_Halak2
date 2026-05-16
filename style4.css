@@ -1,0 +1,97 @@
+.background-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  background: linear-gradient(135deg, #02FAE9, #7f00ff);
+  padding: 20px;
+  box-shadow:  0 0 20px 10px #0468CC;
+}
+.glass-card {
+  max-width: 400px;
+  padding: 40px;
+  border-radius: 20px;
+
+  font-family:Arial, sans-serif;
+}
+
+.glass-title {
+  margin-top: 0;
+  font-size: 24px;
+   box-shadow:  0 0 20px 5px #0F82F5;
+}
+
+.glass-text {
+  line-height: 1.5;
+  margin-bottom: 0;
+  box-shadow:  0 0 20px 5px #22BBE6;
+}
+a{
+     font-size:23px;
+   border: 10px dashed darkblue;
+   border-radius: 65px;
+    text-decoration: none;
+    color: white;
+    margin:10px;
+     
+      
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  height: 10vh;
+  width: 25vh;
+  background-color: background: #1D88B3;
+background: linear-gradient(90deg, rgba(212, 144, 72, 1) 0%, rgba(235, 117, 14, 1) 6%, rgba(236, 79, 9, 1) 37%, rgba(237, 0, 0, 1) 100%);
+
+}
+body{
+    background-color: #07CDFA;
+    cursor: url('star.png');
+    justify-content: center;
+
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+     font-size: 45px;
+}
+h3{
+    color: white;
+    font-size: 60px;
+}
+h4{
+    color: white;
+     font-size: 41px;
+}
+h5{
+    color: white;
+}
+p{
+    color: white;
+}
+form{
+    border:15px solid #00CCFF;
+    border-radius:15px;
+    background-color:  #00A6FF;
+    text-align: center;
+     box-shadow:  0 0 20px 5px #0F82F5;
+    padding: 6px;
+    margin: 36px;
+}
+li{
+    color: white;
+     font-size: 36px;
+}
+img{
+  box-shadow:  0 0 20px 10px #0F7DA8;
+
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+
+
