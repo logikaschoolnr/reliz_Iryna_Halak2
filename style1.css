@@ -1,0 +1,164 @@
+.background-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  background: linear-gradient(135deg, #02FAE9, #7f00ff);
+  padding: 20px;
+  box-shadow:  0 0 20px 10px #0468CC;
+}
+.glass-card {
+  max-width: 400px;
+  padding: 40px;
+  border-radius: 20px;
+
+  font-family:Arial, sans-serif;
+}
+
+.glass-title {
+  margin-top: 0;
+  font-size: 24px;
+   box-shadow:  0 0 20px 5px #0F82F5;
+}
+
+.glass-text {
+  line-height: 1.5;
+  margin-bottom: 0;
+  box-shadow:  0 0 20px 5px #22BBE6;
+}
+/* From Uiverse.io by eslam-hany */ 
+.book {
+  position: relative;
+  border-radius: 10px;
+  width: 220px;
+  height: 300px;
+  background-color: whitesmoke;
+  -webkit-box-shadow: 1px 5px 12px #165491;
+  box-shadow: 1px 5px 12px #165491;
+  -webkit-transform: preserve-3d;
+  -ms-transform: preserve-3d;
+  transform: preserve-3d;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #165491;
+}
+
+.cover {
+  top: 0;
+  position: absolute;
+  background-color: lightgray;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  transform-origin: 0;
+  -webkit-box-shadow: 1px 5px 12px #178BFF;
+  box-shadow: 1px 5px 12px #178BFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.book:hover .cover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: rotatey(-80deg);
+  -ms-transform: rotatey(-80deg);
+  transform: rotatey(-80deg);
+}
+
+p {
+  font-size: 20px;
+  font-weight: bolder;
+   
+}
+
+form{
+    border:15px solid #00CCFF;
+    border-radius:15px;
+    background-color:  #00A6FF;
+    text-align: center;
+     box-shadow:  0 0 20px 5px #0F82F5;
+}
+h1{
+    color:#0687CC;
+    text-align: center;
+     color: white;
+}
+body{
+    background-color:#07CDFA;
+    cursor: url('star.png');
+    
+}
+a{
+     font-size:23px;
+   border: 10px dashed darkblue;
+   border-radius: 65px;
+    text-decoration: none;
+    color: white;
+    margin:10px;
+     
+      
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  height: 10vh;
+  width: 25vh;
+  background-color: background: #1D88B3;
+background: linear-gradient(90deg, rgba(212, 144, 72, 1) 0%, rgba(235, 117, 14, 1) 6%, rgba(236, 79, 9, 1) 37%, rgba(237, 0, 0, 1) 100%);
+
+}
+.colorers{
+  background-color: blue;
+  
+}
+h1{
+
+    padding: 70px;
+  font-size:60px;
+  text-shadow:  3px 2px #22BBE6;
+   color: white;
+}
+h6{
+    font-size:30px;
+    text-shadow:  3px 2px #178BFF;
+     color: white;
+}
+img{
+  box-shadow:  0 0 20px 10px #0468CC;
+
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+h2{ 
+    color: white;
+    
+}
+
+
+
+
+
+
+
